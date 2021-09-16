@@ -1,0 +1,11 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "I am going to create Node.js file server, in which two files to be create for the view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sachin Anil",
+  "license": "ISC"
+}
