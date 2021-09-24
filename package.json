@@ -1,14 +1,17 @@
 {
-  "name": "package.json",
+  "name": "nodemongodbproject",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Build a restful api with node.js express anf mongogb",
+  "main": "promises.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Sachin A",
+  "author": "Sachin Anil",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^4.1.2"
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "nodemon": "^2.0.13"
   }
 }

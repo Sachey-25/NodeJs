@@ -1,0 +1,20 @@
+<!---- Obtaiting value form cou=rse controller -->
+
+<h3> {{viewTitle }} <h3>
+    <form action= "/course" method ="POST">
+    <input type = "hidden" name ="_id" value ={{course._id}}>
+
+<div class="form-group">
+    <label>Course Name </label>
+    <input type ="text" class ="form-control" name ="courseName" placeholder="Course Name" value="{{course.courseName}}">
+<div class="form-group">
+    <label>Course Id </label>
+    <input type ="number" class ="form-control" name ="courseId" placeholder="CourseID" value="{{course.courseId}}">
+<div class="form-group">
+    <label>COurse Duration </label>
+    <input type ="number" class ="form-control" name ="courseDuration" placeholder="CourseDuration" value="{{course.courseduration}}">
+    
+<div class="form-group">
+    <label>COurse Name </label>
+    <input type ="number" class ="form-control" name ="courseFee" placeholder="Course Fee" value="{{course.courseFee}}">
+    
